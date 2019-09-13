@@ -17,7 +17,7 @@ package com.stepdefinition;
 		static WebDriver driver;
 		@Given("User should be in the telecom home pagess.")
 		public void user_should_be_in_the_telecom_home_pagess() {
-			System.setProperty("webdriver.chrome.driver","C:\\Users\\lokesh\\eclipse-workspace\\Cucumber\\drivers\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver","C:\\Users\\lokesh\\eclipse-workspace\\CucumberSuite\\drivers\\chromedriver.exe");
 		     driver = new ChromeDriver();
 		     driver.get("http://demo.guru99.com/telecom/");
 		    

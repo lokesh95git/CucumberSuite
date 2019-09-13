@@ -16,7 +16,7 @@ public class AddCustomerListsSuite {
 	static WebDriver driver;
 	@Given("User should be in  telecom home pages")
 	public void user_should_be_in_telecom_home_pages() {
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\lokesh\\eclipse-workspace\\Cucumber\\drivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\lokesh\\eclipse-workspace\\CucumberSuite\\drivers\\chromedriver.exe");
 	     driver = new ChromeDriver();
 	     driver.get("http://demo.guru99.com/telecom/");
 	    
