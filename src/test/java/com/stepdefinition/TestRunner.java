@@ -11,8 +11,7 @@ import cucumber.api.junit.Cucumber;
                  plugin="html:target",
                  dryRun=false,
                  monochrome=true,
-                 strict=true,
-                 tags={"@regression","@smoke"})
+                 strict=true)
 public class TestRunner {
 
 }

@@ -1,4 +1,3 @@
-@regression @smoke
 Feature: 
 
   Scenario: 
@@ -18,7 +17,7 @@ Feature:
       |  300 | 100 |  20 |  70 | 6 | 7 | 8 |
     And click on submit buttons.
     Then user should be displayed home button is enteredd.
-@sanity
+
   Scenario: 
     Given User should be in the telecom home pagess.
     And click add tariff buttonss
@@ -30,7 +29,7 @@ Feature:
       |  300 |     100 |      20 |      70 |      6 |      7 |   8 |
     And click on submit buttons.
     Then user should be displayed home button is enteredd.
-@smoke
+
   Scenario Outline: 
     Given User should be in the telecom home pagess.
     And click add tariff buttonss
