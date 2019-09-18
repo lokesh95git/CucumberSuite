@@ -1,0 +1,8 @@
+com\resources\FunctionalLibrary.class
+com\objectrepository\HomePage.class
+com\objectrepository\AddCustomerPage.class
+com\stepdefinition\AddCustomerListsSuite.class
+com\stepdefinition\AddTariffPlanSuite.class
+com\stepdefinition\TestRunner.class
+com\stepdefinition\Hook.class
+com\stepdefinition\TestReRunner.class
