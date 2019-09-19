@@ -1,2 +1,0 @@
-src/test/resources/Feature/AddCustomerSuite.feature:3:10:21:42:43:44:45
-src/test/resources/Feature/AddTariffPlanSuite.feature:3:10:21:42:43:44:45
